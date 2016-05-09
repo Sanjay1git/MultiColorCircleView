@@ -1,0 +1,14 @@
+PODS:
+  - MultiColorCircleView (0.1.0)
+
+DEPENDENCIES:
+  - MultiColorCircleView (from `../`)
+
+EXTERNAL SOURCES:
+  MultiColorCircleView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MultiColorCircleView: 067480a71999bae235faae5a734f57b00e4ae651
+
+COCOAPODS: 0.39.0

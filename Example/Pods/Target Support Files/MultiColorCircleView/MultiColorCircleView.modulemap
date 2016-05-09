@@ -1,0 +1,6 @@
+framework module MultiColorCircleView {
+  umbrella header "MultiColorCircleView-umbrella.h"
+
+  export *
+  module * { export * }
+}
