@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MultiColorCircleView_Example', :exclusive => true do
+  pod 'MultiColorCircleView', :path => '../'
+end
+
+target 'MultiColorCircleView_Tests', :exclusive => true do
+  pod 'MultiColorCircleView', :path => '../'
+
+  
+end
