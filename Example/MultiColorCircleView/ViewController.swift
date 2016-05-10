@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import MultiColorCircleView
 
 class ViewController: UIViewController {
+    @IBOutlet weak var multiColorCircleView: MultiColorCircleView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Change the colors and percentages. The colors count must be equal to the percentages count. First Percentage value corresponds to the first color value. The colors will be filled based on the corresponding percentage value.
+        multiColorCircleView.colors = [UIColor.grayColor(), UIColor.orangeColor(), UIColor.magentaColor(), UIColor.yellowColor()]
+        multiColorCircleView.percentages = [0.25, 0.5, 0.125, 0.125]
     }
 
     override func didReceiveMemoryWarning() {

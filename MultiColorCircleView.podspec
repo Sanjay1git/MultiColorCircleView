@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = "Colors the circle with different colors based on percentages. Helps to provide statistical data in the form of a Pie Cicle chart."
 
-  s.homepage         = "https://github.com/Sanjay/MultiColorCircleView"
+  s.homepage         = "https://github.com/Sanjay1git/MultiColorCircleView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Sanjay" => "raghavb96@gmail.com" }

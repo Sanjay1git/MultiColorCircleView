@@ -336,6 +336,21 @@
 			<key>targetProxy</key>
 			<string>467942ADA98677CF0773BFA3C6A3808A</string>
 		</dict>
+		<key>2107419996F2A520BE637BDCB4779705</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>462F220C889B0CF65ED89EB91A4D3B52</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2212E9C955D64E40E7C10972EDB64AFE</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -409,7 +424,7 @@
 			<string>CA73470EE1A17DD7AA0147263D560D4F</string>
 			<key>buildPhases</key>
 			<array>
-				<string>52C5FFF3F0F2DE02838D24DB22A3305D</string>
+				<string>77622CC0B761B05B80A4DB2273224174</string>
 				<string>6564D2816C90FA5CD0BDDED4EA56DFC9</string>
 				<string>A46E4B9C55A24FEEC3915274F1589D18</string>
 			</array>
@@ -476,6 +491,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>462F220C889B0CF65ED89EB91A4D3B52</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>MultiColorCircleView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>467942ADA98677CF0773BFA3C6A3808A</key>
 		<dict>
 			<key>containerPortal</key>
@@ -489,20 +517,6 @@
 			<key>remoteInfo</key>
 			<string>MultiColorCircleView</string>
 		</dict>
-		<key>49DACF8D5CC212F7337A930BC9B25946</key>
-		<dict>
-			<key>fileRef</key>
-			<string>777EB2E6082936A22B0E85039DA1E3D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4FFADBA145B87577D154DCAB000D0BA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>511E72F0A4DCB6A257EE9B8464CAB5F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>511E72F0A4DCB6A257EE9B8464CAB5F8</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -515,20 +529,6 @@
 			<string>MultiColorCircleView-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52C5FFF3F0F2DE02838D24DB22A3305D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4FFADBA145B87577D154DCAB000D0BA4</string>
-				<string>49DACF8D5CC212F7337A930BC9B25946</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>552D02D5BA751AC2E8790D2811D496CA</key>
 		<dict>
@@ -786,18 +786,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>777EB2E6082936A22B0E85039DA1E3D6</key>
+		<key>77622CC0B761B05B80A4DB2273224174</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B3D8C4FC349F74B6DF1436E81005741C</string>
+				<string>DDF1086E39A7A0FFAD12083EC6893937</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ReplaceMe.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>79D96A9C1B82F6E82B18612DCE22FEB6</key>
 		<dict>
@@ -937,21 +938,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
-		</dict>
-		<key>860786B8C9A825704FFE24345ACC57E8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>777EB2E6082936A22B0E85039DA1E3D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8649DE0AADBD7EB3542BA13CDD8FBF86</key>
 		<dict>
@@ -1166,6 +1152,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>B3D8C4FC349F74B6DF1436E81005741C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>511E72F0A4DCB6A257EE9B8464CAB5F8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1241,7 +1234,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>860786B8C9A825704FFE24345ACC57E8</string>
+				<string>2107419996F2A520BE637BDCB4779705</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1438,6 +1431,13 @@
 			<string>Pods-MultiColorCircleView_Tests-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DDF1086E39A7A0FFAD12083EC6893937</key>
+		<dict>
+			<key>fileRef</key>
+			<string>462F220C889B0CF65ED89EB91A4D3B52</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F1E91D0344F18290E6EEB94D5C7F75F5</key>
 		<dict>

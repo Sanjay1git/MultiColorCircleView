@@ -10,6 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+ARC
+iOS9
 
 ## Installation
 
@@ -19,6 +21,16 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "MultiColorCircleView"
 ```
+## Usage
+
+import MultiColorCircleView
+Add an outlet  @IBOutlet weak var multiColorCircleView: MultiColorCircleView!
+
+Change the colors and percentages. The colors count must be equal to the percentages count. First Percentage value corresponds to the first color value. The colors will be filled based on the corresponding percentage value.
+
+multiColorCircleView.colors = [UIColor.grayColor(), UIColor.orangeColor(), UIColor.magentaColor(), UIColor.yellowColor()]
+multiColorCircleView.percentages = [0.25, 0.5, 0.125, 0.125]
+
 
 ## Author
 

@@ -1,9 +1,9 @@
 {
   "name": "MultiColorCircleView",
   "version": "0.1.0",
-  "summary": "A short description of MultiColorCircleView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MultiColorCircleView",
+  "summary": "A subclass of UIView the shows multi colored circle based on percentages.",
+  "description": "Colors the circle with different colors based on percentages. Helps to provide statistical data in the form of a Pie Cicle chart.",
+  "homepage": "https://github.com/Sanjay1git/MultiColorCircleView",
   "license": "MIT",
   "authors": {
     "Sanjay": "raghavb96@gmail.com"

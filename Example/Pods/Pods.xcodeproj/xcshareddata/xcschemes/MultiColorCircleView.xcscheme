@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '758B3CEE6497F3070E421421'
+               BlueprintIdentifier = '007CF23E5453EBD618677D4A'
                BlueprintName = 'MultiColorCircleView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MultiColorCircleView.framework'>
