@@ -22,12 +22,14 @@ public class MultiColorCircleView: UIView {
         var endValue = 0.0
         let radius = (self.frame.width < self.frame.height ? self.frame.width / 2 : self.frame.height / 2) - 20
         
+        clearCircle()
+        
         for i in 0..<colors.count {
             let startAngle = CGFloat(startValue * M_PI / 180)
             endValue = (fullAngle * percentages[i] + startValue)
             let endAngle = CGFloat(endValue * M_PI / 180)
-            
-            let circlePath = UIBezierPath(arcCenter: CGPoint(x: self.center.x,y: self.center.y), radius: radius , startAngle: startAngle, endAngle: endAngle, clockwise: true)
+            let center = CGPointMake(self.bounds.width / 2, self.bounds.height / 2)
+            let circlePath = UIBezierPath(arcCenter: center, radius: radius , startAngle: startAngle, endAngle: endAngle, clockwise: true)
             
             let shapeLayer = CAShapeLayer()
             shapeLayer.path = circlePath.CGPath
@@ -37,6 +39,16 @@ public class MultiColorCircleView: UIView {
             self.layer.addSublayer(shapeLayer)
             
             startValue = endValue
+        }
+    }
+    
+    public func clearCircle() {
+        if let layers = self.layer.sublayers {
+            for layer in layers {
+                if layer is CAShapeLayer {
+                    layer.removeFromSuperlayer()
+                }
+            }
         }
     }
 

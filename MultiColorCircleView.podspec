@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MultiColorCircleView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A subclass of UIView the shows multi colored circle based on percentages."
 
 # This description is used to generate tags and improve search results.

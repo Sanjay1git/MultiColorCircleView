@@ -18,18 +18,41 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPB-0X-Ira" customClass="MultiColorCircleView" customModule="MultiColorCircleView">
-                                <rect key="frame" x="30" y="50" width="200" height="200"/>
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="HWN-dn-TOa"/>
                                     <constraint firstAttribute="width" constant="200" id="KeV-ks-kHe"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdR-AU-MOk">
+                                <rect key="frame" x="210" y="410" width="80" height="30"/>
+                                <state key="normal" title="Clear Circle"/>
+                                <connections>
+                                    <action selector="clearCircle:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9bu-48-WnV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ob1-HH-qEI">
+                                <rect key="frame" x="311" y="410" width="79" height="30"/>
+                                <state key="normal" title="Draw Circle"/>
+                                <connections>
+                                    <action selector="drawCircle:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Tyh-GG-IAK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SPB-0X-Ira" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="30" id="81H-PZ-i74"/>
-                            <constraint firstItem="SPB-0X-Ira" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="bUE-Uf-cXS"/>
+                            <constraint firstItem="JdR-AU-MOk" firstAttribute="top" secondItem="SPB-0X-Ira" secondAttribute="bottom" constant="10" id="5gN-fL-yEe"/>
+                            <constraint firstItem="JdR-AU-MOk" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" constant="-50" id="FnU-Xf-qQ8"/>
+                            <constraint firstItem="SPB-0X-Ira" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Qgh-yA-9sd"/>
+                            <constraint firstItem="SPB-0X-Ira" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Tpr-6v-jaX"/>
+                            <constraint firstItem="Ob1-HH-qEI" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" constant="50" id="cq5-q3-J0z"/>
+                            <constraint firstItem="Ob1-HH-qEI" firstAttribute="top" secondItem="SPB-0X-Ira" secondAttribute="bottom" constant="10" id="mz9-HJ-oaB"/>
                         </constraints>
                     </view>
                     <connections>

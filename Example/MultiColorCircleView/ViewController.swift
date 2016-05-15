@@ -25,6 +25,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func clearCircle(sender: UIButton) {
+        multiColorCircleView.clearCircle()
+    }
 
+    @IBAction func drawCircle(sender: UIButton) {
+        multiColorCircleView.colors = [UIColor.blueColor(), UIColor.yellowColor(), UIColor.brownColor()]
+        multiColorCircleView.percentages = [0.4, 0.25, 0.35]
+        multiColorCircleView.setNeedsDisplay()
+    }
 }
 
